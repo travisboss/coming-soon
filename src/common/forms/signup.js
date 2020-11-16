@@ -15,7 +15,7 @@ class ContactForm extends Component {
         onSubmit={this.props.onSubmit}
         className='flex justify-around items-center'
       >
-        <label className='mr3 avenir mt0 dark-gray'>
+        <label className='mr3 avenir mt0 white'>
           Your Name and Email Address
         </label>
 
