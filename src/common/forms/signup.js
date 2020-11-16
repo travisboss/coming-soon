@@ -15,7 +15,6 @@ class EmailForm extends React.Component {
   updateValues = (e) => {
     e.preventDefault()
     this.setState({[e.target.name]: e.target.value})
-    this.validateEmail()
   }
 
   handleSubmit = (e) => {
@@ -33,8 +32,8 @@ class EmailForm extends React.Component {
   render() {
     return (
       <form
-      onChange={this.props.onChange}
-      onSubmit={this.props.onSubmit}
+      onChange={this.updateValues}
+      onSubmit={this.handleSubmit}
       className='flex justify-around items-center'
     >
       <label className='mr3 avenir mt0 dark-gray'>
@@ -46,7 +45,6 @@ class EmailForm extends React.Component {
             type='text'
             name='email'
             placeholder='email'
-            ref={node => (this.emailNode = node)}
           />
       </label>
 

@@ -1,7 +1,7 @@
 import React from 'react';
 import { StaticQuery, graphql } from 'gatsby';
 import Form from '../common/forms/signup.js';
-import logo from '../../content/images/logo.png'
+import logo from '../../content/images/logo.webp'
 
 const gradient = "linear-gradient(to top, #f4f4f4, #536dfe, #4257cb)";
 const logoWidth = "20%";
