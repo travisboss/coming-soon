@@ -1,5 +1,5 @@
 import React from 'react';
-import { LightCta } from '../buttons/cta.js';
+//import { LightCta } from '../buttons/cta.js';
 
 
 class EmailForm extends React.Component {
@@ -17,7 +17,7 @@ class EmailForm extends React.Component {
   render() {
     return (
       <form>
-        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScHL4qQa-5RzDHtMtpb2C1A3KCebde-m4rMuWayUhwzGZ8hLg/viewform?embedded=true" width="700" height="600" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+        <iframe title="signup form" src="https://docs.google.com/forms/d/e/1FAIpQLScHL4qQa-5RzDHtMtpb2C1A3KCebde-m4rMuWayUhwzGZ8hLg/viewform?embedded=true" width="700" height="600" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
       </form>
     )
   }
