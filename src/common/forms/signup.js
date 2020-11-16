@@ -16,19 +16,8 @@ class EmailForm extends React.Component {
 
   render() {
     return (
-      <form className="flex flex-wrap items-center justify-center w-100">
-        <input
-          type="text"
-          value={this.state.value}
-          name="email"
-          className="bg-near-white mid-gray shadow-5 br-pill bn pa3 ph4 ph5-m mh2 mv2 tc w-100 mw6"
-          placeholder="Your Email Address."
-          onChange={this.handleChange}
-        />
-        <input
-          type="submit"
-          value="Get Notified"
-          className={LightCta} />
+      <form>
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScHL4qQa-5RzDHtMtpb2C1A3KCebde-m4rMuWayUhwzGZ8hLg/viewform?embedded=true" width="700" height="600" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
       </form>
     )
   }
