@@ -13,13 +13,13 @@ class ContactForm extends Component {
       <form
         onChange={this.props.onChange}
         onSubmit={this.props.onSubmit}
-        className='flex justify-around items-center'
+        className='flex flex-wrap flex-column items-center justify-center w-100'
       >
-        <label className='mr3 avenir mt0 white'>
+        <label className='mr3 pb1 mt0 white f4'>
           Your Name and Email Address
         </label>
 
-          <label className='mr3'>
+          <label className='mt3 mb3'>
             <input
               type='text'
               name='name'
@@ -28,17 +28,18 @@ class ContactForm extends Component {
             />
         </label>
 
-          <label className='mr3'>
+          <label className='mt1 mb1'>
             <input
               type='text'
               name='email'
               placeholder='email'
               className={`${showEmailError ? 'pv2 ba b--light-red' : ''}`}
               ref={node => (this.emailNode = node)}
+              required
             />
         </label>
 
-        <button className='f6 pa2 avenir dim'>
+        <button className='f6 pa2 mt3'>
           Submit
         </button>
       </form>
