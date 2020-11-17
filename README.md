@@ -1,4 +1,4 @@
-JetSet - Gatsby.js Template
+Coming Soon website
 ====
 
 A single page template for a pre-launch website.
@@ -8,9 +8,9 @@ A single page template for a pre-launch website.
 Create a new site with this project:
 
 ```
-gatsby new jetset https://github.com/madelyneriksen/jetset/
-cd jetset
-gatsby develop
+gatsby new coming-soon https://github.com/madelyneriksen/jetset/
+cd coming-soon
+yarn develop
 ```
 
 Congrats! You're all set.
