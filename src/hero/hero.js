@@ -22,7 +22,7 @@ export default () => (
         style={{backgroundImage: gradient}}>
         <img src={logo} alt="" />
         <h1 className="near-white f1 mb2 tc">{data.heroJson.title}</h1>
-        <span className="near-white f4 mw7 tc mb4">{data.heroJson.body}</span>
+        <span className="near-white f4 mw7 tc mb1">{data.heroJson.body}</span>
         <Form />
       </div>
     )}

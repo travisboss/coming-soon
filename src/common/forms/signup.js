@@ -15,10 +15,6 @@ class ContactForm extends Component {
         onSubmit={this.props.onSubmit}
         className='flex flex-wrap flex-column items-center justify-center w-100'
       >
-        <label className='mr3 pb1 mt0 white f4'>
-          Your Name and Email Address
-        </label>
-
           <label className='mt3 mb3'>
             <input
               type='text'
